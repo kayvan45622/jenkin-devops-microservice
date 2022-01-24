@@ -1,17 +1,20 @@
-//Declartive
-pipeline{
+//SCRIPTED
+
+//DECLARATIVE
+pipeline {
 	agent any
 	stages{
 		stage('Build') {
-		    setps{ echo "Build"}
-			
+		    setps { echo "Build"
+			}
 		}
 		stage('Test') {
-			setps{ echo "Test"}
+			setps { echo "Test"
+			}
 		}
 		stage('Integration Test') {
-			setps{ echo "Integration Test"}
+			setps { echo "Integration Test"
+			}
 		}
 	    }
-	
 	}
