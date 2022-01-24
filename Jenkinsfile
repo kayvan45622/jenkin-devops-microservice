@@ -3,7 +3,7 @@
 //DECLARATIVE
 pipeline {
 	agent any
-	stages{
+	stages {
 		stage('Build') {
 		    setps { echo "Build"
 			}
