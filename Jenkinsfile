@@ -5,15 +5,15 @@ pipeline {
 	agent any
 	stages {
 		stage('Build') {
-		    setps { echo "Build"
+		    steps { echo "Build"
 			}
 		}
 		stage('Test') {
-			setps { echo "Test"
+			steps { echo "Test"
 			}
 		}
 		stage('Integration Test') {
-			setps { echo "Integration Test"
+			steps { echo "Integration Test"
 			}
 		}
 	    }
